@@ -38,14 +38,6 @@ class TextWithCountersList {
         return total;
     }
 
-    ArrayList<String> getTexts() {
-        return texts;
-    }
-
-    ArrayList<Integer> getCounters() {
-        return counters;
-    }
-
     private void swap(int i,int j) {
         String s = texts.get(i);
         texts.set(i,texts.get(j));
